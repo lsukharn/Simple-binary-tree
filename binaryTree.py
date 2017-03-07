@@ -43,7 +43,8 @@ class Tree:
     def find(self, value):
         if self.root != None:
             self._find(value, self.root)
-
+    
+    #Perform a tree traversal to find a node with a given value
     def _find(self, value, node):
         if node.value == value:
             print "found node with value: %s" % node.value
