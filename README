@@ -1,0 +1,7 @@
+This is an implementation of a simple binary tree with the following methods: 
+
+- add(self, value, node): adds a node to the tree
+- find(self, value): looks for a node with a given value 
+- deleteTree(self): delets reference to the tree root
+- printTree(self): prints a tree
+
